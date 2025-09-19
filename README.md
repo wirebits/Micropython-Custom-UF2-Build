@@ -18,7 +18,7 @@ sudo apt install git build-essential cmake gcc-arm-none-eabi libnewlib-arm-none-
 ```
 4. Download Micropython
 ```
-git clone -b master https://github.com/micropython/micropython.git
+git clone --recurse-submodules https://github.com/micropython/micropython.git
 ```
 5. Go to Micropython Folder
 ```
